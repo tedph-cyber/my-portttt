@@ -3,7 +3,7 @@ import { Shield, Code, Music } from "lucide-react";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Github, Mail, Linkedin } from "lucide-react";
-import FloatBg from "./ui/floatBg";
+// import FloatBg from "./ui/floatBg";
 
 export default function HeroSection() {
   return (
