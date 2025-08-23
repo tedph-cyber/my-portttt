@@ -3,7 +3,6 @@ import { Shield, Code, Music } from "lucide-react";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Github, Mail, Linkedin } from "lucide-react";
-// import FloatBg from "./ui/floatBg";
 
 export default function HeroSection() {
   return (
@@ -39,7 +38,6 @@ export default function HeroSection() {
           style={{ color: "hsl(var(--music-accent))" }}
         />
       </div>
-      {/* <FloatBg /> */}
 
       {/* Main Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
