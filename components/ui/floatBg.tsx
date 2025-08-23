@@ -1,5 +1,5 @@
 'use client'
-import { easeInOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Shield, Code, Music } from "lucide-react";
 
 export default function FloatBg() {
