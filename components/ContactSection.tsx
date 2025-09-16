@@ -80,7 +80,7 @@ export default function ContactSection() {
         </div>
 
         <Button variant="hero" size="lg" className="animate-pulse-glow">
-          Start a Conversation
+          <a href="mailto:hello@tedph.me">Start a Conversation</a>
         </Button>
       </div>
     </section>

@@ -48,7 +48,7 @@ const Footer = () => {
             <ul className="space-y-2 text-[hsl(var(--muted-foreground))]">
               <li>
                 <a
-                  href="#about"
+                  href="/#about"
                   className="hover:text-[hsl(var(--cyber-primary))] transition-colors"
                 >
                   About
@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#skills"
+                  href="/#skills"
                   className="hover:text-[hsl(var(--primary))] transition-colors"
                 >
                   Skills
@@ -64,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#projects"
+                  href="/projects"
                   className="hover:text-[hsl(var(--music-accent))] transition-colors"
                 >
                   Projects
@@ -72,7 +72,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="/#contact"
                   className="hover:text-[hsl(var(--warm-accent))] transition-colors"
                 >
                   Contact

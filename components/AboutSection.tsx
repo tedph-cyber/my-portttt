@@ -46,7 +46,7 @@ export default function AboutSection() {
                 Download Resume
               </Button>
               <Button variant="outline" size="lg">
-                View Projects
+                <a href="/projects">View Projects</a>
               </Button>
             </div>
           </div>

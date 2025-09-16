@@ -3,6 +3,7 @@ import { Shield, Code, Music } from "lucide-react";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Github, Mail, Linkedin } from "lucide-react";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -79,14 +80,14 @@ export default function HeroSection() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-            View My Work
+            <Link href="/projects">View My Work</Link>
           </Button>
           <Button
             variant="outline"
             size="lg"
             className="text-lg px-8 py-4 border-[hsl(var(--cyber-primary))] text-[hsl(var(--cyber-primary))] hover:bg-[hsl(var(--cyber-primary))] hover:text-[hsl(var(--primary-foreground))]"
           >
-            Let's Connect
+            <Link href="/#contact">Let's Connect</Link>
           </Button>
         </div>
 
